@@ -7,7 +7,7 @@ app = FastAPI()
 
 class Item(BaseModel):
     name: str
-    price: float
+    price: int
     is_offer: Union[bool, None] = None
 
 
